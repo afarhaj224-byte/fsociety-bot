@@ -453,12 +453,12 @@ function buildTopPanel({
   const githubLink = getGithubLink(settings);
   return [
     "╔════════════════════════════════════════════╗",
-    "║            ⚡ FSOCIETY COMMAND HUB         ║",
+    "║            ⚡ 𝗚𝗔𝗡𝗚<>𝗛𝗔𝗖𝗞𝗘𝗥 COMMAND HUB         ║",
     "╠════════════════════════════════════════════╣",
     `║ 🛰️  *${menuTitle}*`,
     `║     _${menuSubtitle}_`,
     "╟────────────────────────────────────────────╢",
-    `║ 🤖 Bot: *${botLine || settings?.botName || "Fsociety-V1"}*`,
+    `║ 🤖 Bot: *${botLine || settings?.botName || "𝗚𝗔𝗡𝗚<>𝗛𝗔𝗖𝗞𝗘𝗥"}*`,
     `║ 👑 Owner: *${settings?.ownerName || "Owner"}*`,
     `║ 🧷 Prefix: *${prefixLabel}*`,
     `║ ⏱️ Uptime: *${uptime}*`,
@@ -683,7 +683,7 @@ function buildMenuButtons(primaryPrefix, categoryNames, categories) {
     nativeFlowInfo: {
       name: "single_select",
       paramsJson: JSON.stringify({
-        title: "☠️ FSOCIETY-V1 COMMAND SELECTOR",
+        title: "☠️ 𝗚𝗔𝗡𝗚<>𝗛𝗔𝗖𝗞𝗘𝗥 COMMAND SELECTOR",
         sections,
       }),
     },
@@ -709,7 +709,7 @@ function buildMenuLandingText(menuContext, settings, uptime, totalCategories, to
   const githubLink = getGithubLink(settings);
   return [
     "╔════════════════════════════════════════════╗",
-    "║            ☠️ FSOCIETY-V1 MENU             ║",
+    "║            ☠️ 𝗚𝗔𝗡𝗚<>𝗛𝗔𝗖𝗞𝗘𝗥 MENU             ║",
     "╠════════════════════════════════════════════╣",
     `║ 👋 Hola, *${menuContext.botLine || settings?.botName || "usuario"}*`,
     "║ Pulsa *ABRIR MENU* para desplegar categorías.",
