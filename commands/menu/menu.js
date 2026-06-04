@@ -709,7 +709,7 @@ function buildMenuLandingText(menuContext, settings, uptime, totalCategories, to
   const githubLink = getGithubLink(settings);
   return [
     "╔════════════════════════════════════════════╗",
-    "║            ☠️ FSOCIETY-V1 MENU             ║",
+    "║            ☠️ 𝗚𝗔𝗡𝗚<>𝗛𝗔𝗖𝗞𝗘𝗥 MENU             ║",
     "╠════════════════════════════════════════════╣",
     `║ 👋 Hola, *${menuContext.botLine || settings?.botName || "usuario"}*`,
     "║ Pulsa *ABRIR MENU* para desplegar categorías.",
